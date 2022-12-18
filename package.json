@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Advide2001/manage-landing-page/issues"
   },
-  "homepage": "https://github.com/Advide2001/manage-landing-page#readme"
+  "homepage": "https://github.com/Advide2001/manage-landing-page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1",
+    "sass": "^1.57.0"
+  }
 }
