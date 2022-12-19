@@ -1,8 +1,15 @@
 :root {
   // Colors
+  // Primary colors
   --clr-primary-400: hsl(228, 39%, 23%);
+
+  // Secondary colors
+  --clr-accent-500: hsl(12, 60%, 40%);
   --clr-accent-400: hsl(12, 88%, 59%);
+  --clr-accent-300: hsl(12, 88%, 75%);
   --clr-accent-100: hsl(13, 100%, 96%);
+
+  // Neutral colors
   --clr-neutral-100: hsl(0, 0%, 98%);
   --clr-neutral-900: hsl(233, 12%, 13%);
 
