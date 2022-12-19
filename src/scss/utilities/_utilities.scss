@@ -93,7 +93,7 @@
 
 .container {
   --max-width: 1200px;
-  --padding-block: 1rem;
+  --padding: 1rem;
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
 }
