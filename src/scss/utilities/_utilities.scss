@@ -41,9 +41,11 @@
 }
 .fs-primary-heading {
   font-size: var(--fs-primary-heading);
+  line-height: 1.1;
 }
 .fs-secondary-heading {
   font-size: var(--fs-secondary-heading);
+  line-height: 1.1;
 }
 .fs-300 {
   font-size: var(--fs-300);
@@ -61,9 +63,37 @@
   font-size: var(--fs-600);
 }
 
+.padding-block-100 {
+  padding-block: var(--size-100);
+}
+.padding-block-200 {
+  padding-block: var(--size-200);
+}
+.padding-block-300 {
+  padding-block: var(--size-300);
+}
+.padding-block-400 {
+  padding-block: var(--size-400);
+}
+.padding-block-500 {
+  padding-block: var(--size-500);
+}
+.padding-block-600 {
+  padding-block: var(--size-600);
+}
+.padding-block-700 {
+  padding-block: var(--size-700);
+}
+.padding-block-800 {
+  padding-block: var(--size-800);
+}
+.padding-block-900 {
+  padding-block: var(--size-900);
+}
+
 .container {
   --max-width: 1200px;
-  --padding: 1rem;
+  --padding-block: 1rem;
   width: min(var(--max-width), 100% - (var(--padding) * 2));
   margin-inline: auto;
 }
