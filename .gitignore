@@ -16,3 +16,5 @@
 
 #Avoid adding node_modules to your project
 node_modules/
+#Avoid adding dist to your project, as it is auto-generated
+dist/
