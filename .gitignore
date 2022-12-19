@@ -18,3 +18,5 @@
 node_modules/
 #Avoid adding dist to your project, as it is auto-generated
 dist/
+#Avoid adding .cache folder to your project, as it is auto-generated
+.cache/
