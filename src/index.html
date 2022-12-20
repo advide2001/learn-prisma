@@ -14,7 +14,6 @@
       type="image/png"
       sizes="32x32"
       href="assets\images\favicon-32x32.png" />
-
     <link rel="stylesheet" href="scss\main.scss" />
 
     <title>Manage landing page</title>
@@ -22,19 +21,38 @@
   <body>
     <header class="primary-header">
       <div class="container">
-        <a href="#" class="primary-header__logo">
-          <img src="\assets\images\logo.svg" alt="Logo of the company" />
-        </a>
-        <nav class="primary-navigation">
-          <ul role="list" class="nav-list">
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Community</a></li>
-          </ul>
-        </nav>
-        <button class="button">Get Started</button>
+        <div class="nav-wrapper">
+          <a href="#" class="primary-header__logo">
+            <img src="\assets\images\logo.svg" alt="Logo of the company" />
+          </a>
+          <button
+            id="mobile-nav-toggle"
+            class="mobile-nav-toggle"
+            aria-controls="primary-navigation"
+            aria-expanded="false">
+            <img
+              class="icon-hamburger"
+              src="\assets\images\icon-hamburger.svg"
+              alt=""
+              aria-hidden="true" />
+            <img
+              class="icon-close"
+              src="\assets\images\icon-close.svg"
+              alt=""
+              aria-hidden="true" />
+            <span class="visually-hidden">Menu</span>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul aria-label="Primary" role="list" class="nav-list">
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </nav>
+          <button class="button | display-sm-none">Get Started</button>
+        </div>
       </div>
     </header>
     <main>
@@ -165,5 +183,6 @@
         </div>
       </div>
     </footer>
+    <script src="\js\main.js"></script>
   </body>
 </html>
