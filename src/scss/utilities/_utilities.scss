@@ -103,9 +103,27 @@
   gap: 1rem;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.display-sm-none {
+  display: none;
+}
+
 @media (min-width: 50em) {
   .even-columns {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
+  }
+
+  .display-sm-none {
+    display: inline-flex;
   }
 }
