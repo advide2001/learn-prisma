@@ -11,7 +11,7 @@ const App = () => {
       </div>
       <div className="{`bg-primary ${styles.paddingX} ${styles.flexStart}`}">
         <div className="{${styles.boxWidth}}">
-          All other components
+          Stats Business Billing CardDeal Testimonials Clients CTA Footer
         </div>
       </div>
     </div>
