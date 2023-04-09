@@ -7,3 +7,4 @@ export { default as Clients } from "./Clients";
 export { default as CTA } from "./CTA";
 export { default as Footer } from "./Footer";
 export { default as NavBar } from "./NavBar";
+export { default as Hero } from "./Hero";
