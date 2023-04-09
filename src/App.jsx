@@ -15,6 +15,7 @@ const App = () => {
   return (
     <div className="w-full overflow-hidden bg-primary">
       <NavBar />
+      <Hero />
     </div>
   );
 };
