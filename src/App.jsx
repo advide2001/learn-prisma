@@ -8,26 +8,27 @@ import {
   CTA,
   Footer,
   NavBar,
-} from "../components";
-import Hero from "./components/Hero";
-
-import styles from "./style";
+  Hero,
+} from "./components";
 
 const App = () => {
   return (
     <div className="w-full overflow-hidden bg-primary">
-      <div className="{`${styles.paddingX} ${styles.flexCenter}`}">
-        <div className="{`${styles.boxWidth}`}">
-          <NavBar />
-        </div>
-      </div>
-      <div className="{`bg-primary ${styles.flexStart}`}">
-        <div className="{${styles.boxWidth}}">
+      <NavBar />
+    </div>
+  );
+};
+
+export default App;
+
+{
+  /* <div className="flex items-start justify-center bg-primary">
+        <div className="w-full xl:max-w-[1280px]">
           <Hero />
         </div>
       </div>
-      <div className="{`bg-primary ${styles.paddingX} ${styles.flexStart}`}">
-        <div className="{${styles.boxWidth}}">
+      <div className="flex items-start justify-center bg-primary px-6 sm:px-16">
+        <div className="w-full xl:max-w-[1280px]">
           <Stats />
           <Business />
           <Billing />
@@ -37,9 +38,5 @@ const App = () => {
           <CTA />
           <Footer />
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default App;
+      </div> */
+}
