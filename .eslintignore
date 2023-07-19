@@ -1,0 +1,3 @@
+# dont lint node modules and build folders
+node_modules/
+dist/

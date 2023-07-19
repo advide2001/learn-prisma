@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "extends": ["plugin:@shopify/esnext", "prettier"],
+  "rules": {
+    "no-console": 1,
+    "no-process-env": 0
+  },
+  "env": {
+    "node": true,
+    "commonjs": true
+  }
+}

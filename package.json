@@ -1,0 +1,56 @@
+{
+  "name": "learn-prisma",
+  "version": "1.0.0",
+  "description": "This a repo for trying out prisma",
+  "main": "index.ts",
+  "scripts": {
+    "prettier-format": "npx prettier --config .prettierrc src/**/*.ts --write",
+    "lint": "npx eslint . --ext .ts",
+    "lint-and-fix": "npx eslint . --ext .ts --fix",
+    "build": "rimraf ./build && npx tsc",
+    "start:dev": "npx nodemon ./src/index.ts",
+    "start": "npm run build && npx nodemon ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/advide2001/leran-prisma.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Node.js"
+  ],
+  "author": "advide2001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/advide2001/express-api-template/issues"
+  },
+  "homepage": "https://github.com/advide2001/express-api-template#readme",
+  "devDependencies": {
+    "@shopify/eslint-plugin": "^42.1.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.0",
+    "rimraf": "^5.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "pino": "^8.14.1"
+  }
+}
